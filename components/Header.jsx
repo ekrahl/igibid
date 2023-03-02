@@ -16,7 +16,7 @@ const Header = () => {
             <div className="border-b w-full inline-block border-blue-400 py-8">
                 <div className="md:float-left block">
                     <Link href="/">
-                        <p className="cursor-pointer font-semibold text-4xl text-white">
+                        <p className="transition duration-500 transform hover:-translate-y-1 cursor-pointer font-semibold text-4xl text-white">
                             I Get It. <br /><span className="font-dancing">But I Don't.</span>
                         </p>
                     </Link>
