@@ -16,9 +16,9 @@ const Header = () => {
             <div className="border-b w-full inline-block border-blue-400 py-8">
                 <div className="md:float-left block">
                     <Link href="/">
-                        <span className="cursor-pointer font-bold text-4xl text-white">
-                            I Get It <br></br><em>But I Don't</em>
-                        </span>
+                        <p className="cursor-pointer font-semibold text-4xl text-white">
+                            I Get It. <br /><span className="font-dancing">But I Don't.</span>
+                        </p>
                     </Link>
                 </div>
                 <div className="hidden md:float-left md:contents">
